@@ -1,0 +1,34 @@
+.products {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.product {
+  position: relative;
+  width: calc(100% / 4);
+  margin: 1rem;
+  padding: .5rem;
+
+  background-color: $white-darken ;
+  border-radius: 1rem;
+
+  color: $link-hover;
+}
+
+.img_slider {
+  border-radius: 100px;
+}
+
+.swiper-button-prev::after {
+  color: $link-hover;
+}
+
+.swiper-button-next::after {
+  color: $link-hover;
+}
+
+.swiper {
+  z-index: -1;
+}

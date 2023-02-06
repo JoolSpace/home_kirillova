@@ -1,0 +1,35 @@
+.footer {
+text-align: center;
+background-color: var(--gray);
+}
+
+.call {
+  position: fixed;
+  bottom: 2.2rem;
+  right: 1rem;
+  width: 5rem;
+  height: 5rem;
+  background-color: var(--white-darken);
+  border-radius: 50%;
+  box-shadow: 0 6px 5px var(--shadow);
+  z-index: 9;
+}
+
+.call img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30px;
+  height: 30px;}
+
+.lists {
+  font-size: 20px;
+  }
+
+.after {
+  justify-content: flex-start;
+  display: flex;
+  color: var(--white);
+  background-color: var(--black);
+}

@@ -1,0 +1,52 @@
+.footer {
+  text-align: center;
+  background-color: $gray;
+  &-call {
+    position: fixed;
+    bottom: 2.2rem;
+    right: 1rem;
+    width: 5rem;
+    height: 5rem;
+    background-color: $white-darken;
+    border-radius: 50%;
+    box-shadow: 0 6px 5px $shadow;
+    z-index: 9;
+    &__img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 30px;
+      height: 30px;
+      }
+    }
+    &-after {
+      justify-content: flex-start;
+      display: flex;
+      color: $secondary-color;
+      background-color: $primay-color;
+    }
+  }
+  
+  .footer-lists {
+    font-size: 20px;
+    margin-top: 10px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    &__list {
+      font-size: 20px;
+      margin: 22px 20px 10px 10px;
+    }
+      &__link {
+        text-decoration: none;
+        color: $secondary-color;
+      }
+      &__link:hover {
+        color: $link-hover;
+      transition: .3s;
+      }
+  }
+  
+    
+  

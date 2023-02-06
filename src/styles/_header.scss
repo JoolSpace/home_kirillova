@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  justify-content: space-between;
+  z-index: 2;
+  background-color: $gray;
+  
+  &__img {
+  width: 105px;
+  height: 55px;
+  margin: 1rem;
+ }
+
+ &-lists {
+  font-size: 20px;
+  margin-top: 10px;
+  
+    &__link:hover {
+      color: $link-hover;
+      transition: .3s;
+    }
+ 
+  &__list {
+    padding: 20px;
+    }
+  }
+}
+
+.icon {
+  margin: 0;
+}
